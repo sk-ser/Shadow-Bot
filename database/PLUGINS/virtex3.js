@@ -7,9 +7,9 @@ const virtex3 = ` ꪶ𖣂ꫂ Ꮥ н @ ∂ ø Ш 〽️ʹ⁩𝜘͢͢ۦོ͢⇣͢�
 
 Shadow.addCommand({pattern: 'virtex ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
-var url = await axios.get(`https://i.imgur.com/40cQtSL.jpeg`, { responseType: 'arraybuffer' })
+var url = await axios.get(`https://i.imgur.com/OPO8IYd.jpeg`, { responseType: 'arraybuffer' })
 
-var thumb = await axios.get(`https://i.imgur.com/x0IjW0U.jpeg`, { responseType: 'arraybuffer' })
+var thumb = await axios.get(`https://i.imgur.com/OPO8IYd.jpeg`, { responseType: 'arraybuffer' })
 
 
 await message.sendMessage(virtex3, {quoted: message.data})
